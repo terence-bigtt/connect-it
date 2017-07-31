@@ -30,6 +30,7 @@ It is planned to collect resources and develop an app in order to do the followi
 ## Libraries
 * [Flask](http://flask.pocoo.org/)
 * [Django](https://www.djangoproject.com/)
+* [Rasp GPIO Python](https://pypi.python.org/pypi/RPi.GPIO)
 
 ## Documentation
 ### Some useful links from the [Raspberry Documentation](https://www.raspberrypi.org/documentation/):
