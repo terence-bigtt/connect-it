@@ -1,0 +1,35 @@
+1. scripts:
+  * switch to Access point mode:
+    AP name including part of Mac address or chip ID
+    serves a single web page with a form allowing to configure wifi settings:
+      ---------------------------------------
+      SSID: 
+      Password:
+      -----
+      Data post address:          port:     (Advanced mode ?)
+      ---------------------------------------
+      
+      SSID field shoudl be a list of available (scanned) wifi
+      Password shoud be the password of the wifi
+      
+      Data post address is a (IP or web) address where the data in IOT mode will be posted / own IP will be posted and update for an external access
+      
+  
+  * switch to client mode :
+    Check if wifi has been configured 
+    If so, send Greeting message to data post address (with external IP, or whatever else to be defined)
+    serve a REST Api for data reading or writing
+    
+  * Control script:
+    client or AP mode from GPIO trigger
+    
+2. REST API:
+  * define a flexible data format
+  * define data types
+    -> List some use cases
+
+3. Some +/- standard drivers:
+  * temperature / humidity sensors
+  * camera
+  * ...
+      
