@@ -25,6 +25,7 @@ It is planned to collect resources and develop an app in order to do the followi
 
 ## Software
 * [Mini upnp](http://miniupnp.free.fr/)
+* [Mini upnp commands](https://blog.chemel.fr/debian-upnp-port-forwarding-via-command-line/)
 * [Motion](https://wiki.debian.org/fr/Motion)
 * [Wifi ap or client](https://raspberrypi.stackexchange.com/questions/44184/switch-between-ap-and-client-mode)
 
